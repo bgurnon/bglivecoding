@@ -1,0 +1,6 @@
+Week 3 MiniTidal Patch
+
+stack [ s "[bd? bd*2] [bd ~ bd? bd? ~] ~ [bd? bd bd?]",
+s "~ cp ~ [cp/3 cp?]",
+s "~ ~ ~ [ht ht]/4 ~ ~ ~ [lt lt lt?]/5",
+s "{hh*4, hh*6}*2?" ]
