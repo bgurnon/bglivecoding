@@ -1,0 +1,7 @@
+Week 3 MiniTidal Patch
+
+stack [ s "industrial*8" # n "1 2 4 7 5 6 7" # pan sine # speed (0.6) # gain (0.8),
+s "reverbkick*4" # n "0 0 0 0" # speed (0.65),
+s "[~ reverbkick?] ~ [~ ~ ~ ~ hh hh hh hh]/4 [hh hh]/2" # speed (0.9) # gain (0.9),
+s "rave*8" # n "~ 6? ~ 3 ~ ~ 6 ~ " # speed (-0.9) # gain (0.8),
+fast 2 $ note (arp "converge" "<f'dim7 f'dim7 b'dim7 b'dim7>") # s "bass2" # gain (0.7) ]
